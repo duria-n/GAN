@@ -200,5 +200,5 @@ if __name__ == "__main__":
     # 如果cuda可用，则使用cuda加速训练
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     # device = 'cpu'
-    # Train(epochs, batch_size, input_dim, lr)
+    Train(epochs, batch_size, input_dim, lr)
     Predict('./gen_model.pt', input_dim, (28,28,1))
