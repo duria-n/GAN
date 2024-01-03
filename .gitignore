@@ -4,6 +4,4 @@ pytoch/data/
 .idea/
 hub/
 fid_image/
-data/
-data/MNIST/
-*.gz
+
