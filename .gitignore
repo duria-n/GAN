@@ -1,6 +1,9 @@
 *.*~
-data/
+pytoch/data/
 *.gz
 .idea/
 hub/
 fid_image/
+data/
+data/MNIST/
+*.gz
