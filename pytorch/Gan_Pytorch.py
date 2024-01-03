@@ -11,20 +11,12 @@ from PIL import Image
 from pytorch_fid.fid_score import calculate_fid_given_paths
 import matplotlib.pyplot as plt
 '''
-batch_size=50:
-    使用cuda加速下，每代的训练时间大概为11s-16s
-    使用cpu进行训练，每代训练时间大概为45-50s
-batch_size=120:
+cuda加速下随着负载的增加，加速效果越来越明显
 '''
 
-import os
 
-# 设置TORCH_HOME环境变量为您希望保存权重的路径
-# 设置TORCH_HOME环境变量为您希望保存权重的路径
+# 设置望保存权重的路径
 os.environ['TORCH_HOME'] = r'E:\file\github\GAN\pytorch'
-
-
-# 接下来，当您使用需要下载预训练权重的函数或库时，权重会被保存到您指定的路径
 
 class Generator(nn.Module):
     def __init__(self, input_shape, input_dim):
