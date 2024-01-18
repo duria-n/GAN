@@ -8,4 +8,6 @@ pytorch/data/raw/
 .idea/
 hub/
 *fid_image/
-
+*pycache*
+check_point/
+*data/
