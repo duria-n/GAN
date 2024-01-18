@@ -1,7 +1,11 @@
 *.*~
+<<<<<<< Updated upstream
 pytoch/data/
+=======
+pytorch/data/raw/
+>>>>>>> Stashed changes
 *.gz
 .idea/
 hub/
-fid_image/
+*fid_image/
 
